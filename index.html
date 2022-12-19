@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Fuzzy+Bubbles:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h2>Pokédex by ArthyCode</h2>
+    <section class="com">
+        <div class="container">
+            <div class="screen">
+                <label id="pokeEspe">Pókemon</label><br>
+                <img src="./img/pokeBall.png" id="pokeImg" name="pokeImg" alt="Pokemon"/>
+                <div id="pokeType"></div>
+            </div>
+            <div class="decoration">
+                <button class="cir-azul"></button>
+                <button class="but-green"></button>
+                <button class="but-green"></button>
+            </div>
+            <input type="text" id="pokeName" name="pokeName" placeholder="Search your Pókemon"/>
+            <button class="cir" onclick="fetchPokemon()"></button>
+        </div>
+        <div class="container">
+            <div class="cont2">
+                <div class="stats">
+                    <h3>Stats</h3>
+                    <p id="pokeStats">Hp:</p>
+                    <p id="pokeStats1">Attack:</p>
+                    <p id="pokeStats2">Defense:</p>
+                    <p id="pokeStats3">Special attack:</p>
+                    <p id="pokeStats5">Speed</p>
+                    <!--<p id="pokeStats4">Special defense:</p>-->
+                </div>
+                <div class="stats" >
+                    <h3>Abilities</h3>
+                    <p id="pokeAbilities"></p>   
+                </div>
+            </div>
+            <div class="screen">
+                <label>Shiny Versión</label><br>
+                <img src="./img/pokeBall.png" id="pokeImgS" name="pokeImg" alt="Pokemon"/>
+            </div>
+        </div>
+    </section>
+</body>
+<footer>
+    <script src="./js/poke.js"></script>
+</footer>
+</html>
