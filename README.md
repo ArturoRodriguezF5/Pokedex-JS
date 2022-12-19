@@ -1,5 +1,4 @@
 # Pokedex-JS 🎯
-![Imagen del proyecto](https://github.com/eduardofierropro/Portafolio-y-CV/blob/main/IMAGEN-DEL-PROYECTO.jpg?raw=true)
 
 ## Ejemplo en vivo
 - [https://arturorodriguezf5.github.io/Pokedex-JS/](URL-de-github-pages-de-este-proyecto)
